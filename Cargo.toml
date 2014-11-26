@@ -6,4 +6,5 @@ authors = ["Jonathan Reem <jonathan.reem@gmail.com>"]
 repository = "https://github.com/reem/rust-to.git"
 readme = "README.md"
 license = "MIT"
+description = "A trait for generalized conversion to a target type."
 
