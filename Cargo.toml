@@ -1,8 +1,8 @@
 [package]
 
 name = "to"
-version = "0.0.1"
-authors = ["Jonathan Reem <jonathan.reem@gmail.com>"]
+version = "0.1.0"
+authors = ["Jonathan Reem <jonathan.reem@gmail.com>", "Nick Webster <nick@nick.geek.nz>"]
 repository = "https://github.com/reem/rust-to.git"
 readme = "README.md"
 license = "MIT"
