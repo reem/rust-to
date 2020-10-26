@@ -4,10 +4,11 @@
 //! Generalized conversion to a target type.
 
 /// A type which can be converted to `X`.
-pub trait To<X> {
+trait To<X> : Into<X> {
     /// Convert self to an instance of `X`.
-    fn to(self) -> X;
+    fn to(self) -> X {
+        self.into()
+    }
 }
 
-impl<T> To<T> for T { fn to(self) -> T { self } }
-
+impl <U, T: Into<U>> To<U> for T {}
